@@ -6,7 +6,11 @@ h1{
   color: rgb(110, 20, 106)
 
 }
-
+@keyframes reveal
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 .row {
   display: flex;
 }
@@ -15,9 +19,7 @@ h1{
   flex: 33.33%;
   padding: 5px;
 }
-/* #right {
-  float: right;
-} */
+
 
 #project-wrapper {
   position: relative;
@@ -31,6 +33,8 @@ h1{
 }
 
 .banner {
+  animation-name: reveal;
+  animation-duration: 4s;
   height: 500px;
   #opacity: 0.5;
   background: url(banner.jpg) center center;
@@ -43,10 +47,7 @@ h1{
     top: 25%;
     text-align: center !important;
     width: 100%; }
-    .banner .over h1 {
-      color: #fff;
-      font-weight: 400;
-      margin-top: 30px !important; }
+
 
 /* .square_image {
   -webkit-border-radius: 100%;
