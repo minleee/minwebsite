@@ -1,25 +1,58 @@
 .about{
-  margin: 0, auto;
+  margin: 0 auto;
+}
+.body{
+  font-family: 'Questrial', sans-serif;
 }
 h1{
-  font-style: bold; font-size: 100px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 70px;
   color: rgb(110, 20, 106)
-
+}
+h2, h3{
+  font-family: 'Questrial', sans-serif;
+}
+p{
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
 }
 @keyframes reveal
 {
   from {opacity: 0;}
   to {opacity: 1;}
 }
-.row {
+.photos{
   display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
 }
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
+.row1, .row2{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+  justify-content: center;
+  width: 100%;
 }
-
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img{
+  display: block;
+  width: 350px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    position: relative;
+    padding: 10px;
+}
+.virtual img{
+  width: 500px;
+  padding: 0px 30px;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+.content1, .content2{
+  padding: 0px 10px;
+}
 
 #project-wrapper {
   position: relative;
