@@ -12,6 +12,22 @@ h1{
 h2, h3{
   font-family: 'Questrial', sans-serif;
 }
+
+.maintitle{
+  font-family: 'Questrial', sans-serif;
+  font-size: 70px;
+  color: rgb(110, 20, 106);
+  margin-top: 40px;
+}
+
+.subtitle{
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: rgb(18, 1, 22);
+  font-weight: bold;
+}
 p{
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
