@@ -1,8 +1,11 @@
 .about{
-  margin: 0 auto;
+
 }
 .body{
   font-family: 'Questrial', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+
 }
 h1{
   font-family: 'Questrial', sans-serif;
@@ -15,10 +18,12 @@ h2, h3{
 
 .maintitle{
   font-family: 'Questrial', sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   color: rgb(110, 20, 106);
-  margin-top: 40px;
+  margin-top: 80px;
 }
+
+
 
 .subtitle{
   font-family: 'Questrial', sans-serif;
@@ -49,6 +54,8 @@ p{
   justify-content: center;
   width: 100%;
 }
+.top-buffer { margin-top:20px; }
+.top-buffer-2 { margin-top:100px; }
 .box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img{
   display: block;
   width: 350px;
@@ -67,7 +74,8 @@ p{
   flex-grow: 2;
 }
 .content1, .content2{
-  padding: 0px 10px;
+  padding: auto auto;
+  margin: auto auto;
 }
 
 #project-wrapper {
